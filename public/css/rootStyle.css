@@ -1,0 +1,70 @@
+.dice-logo-header .iconify{
+    font-size: xx-large;
+    margin-left: 5px;
+    color:  #ffc107;
+}
+
+.aside.emoji-picker-react{
+    width: 100% !important;
+}
+
+.font-family-IRANSans{
+    font-family: IRANSans;
+}
+
+.color-warning{
+    color: #ffc107;
+}
+
+.background-dark{
+    background-color: #212529 !important;
+}
+
+
+.bx-shadow-blue{
+    box-shadow: 1px 1px 1px 1px #959595a3;
+}
+
+
+.modal-dialog-scrollable::-webkit-scrollbar{
+    width: 1px;
+}
+
+.selectMap .mapboxgl-canvas{
+width: 100% !important;
+height: 450px !important;
+}
+
+/* .mapboxgl-ctrl {
+display: none !important;
+} */
+.mapboxgl-ctrl-attrib-inner a ,
+.mapboxgl-ctrl-bottom-right ,
+.mapboxgl-ctrl-attrib 
+{
+    display: none !important;
+}
+
+
+.mapboxgl-ctrl {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.mapboxgl-ctrl-zoom-in {
+    background: url('https://api.iconify.design/akar-icons/plus.svg') no-repeat center center / contain !important; 
+    font-size: xx-large;
+    padding: 0.5em;
+    margin-left: 10px;
+  }
+  
+  .mapboxgl-ctrl-zoom-out {
+    background: url('https://api.iconify.design/akar-icons/minus.svg') no-repeat center center / contain !important;
+    font-size: xx-large;
+    padding: 0.5em;
+}
+
+.mapboxgl-ctrl-compass{
+    display: none !important;
+}

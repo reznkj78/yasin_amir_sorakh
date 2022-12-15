@@ -1,0 +1,184 @@
+.create-post-conatiner{
+    min-height: 100vh;
+    max-width: 830px;
+}
+
+.create-post-upload-file-icon .iconify{
+    text-align: center;
+    font-size: 7rem;
+}
+
+.typeOfPost_container > div{
+    flex-basis: 20%;
+}
+
+
+
+.createpost-title {
+    height: 100%;
+    box-shadow: 1px 2px 7px 7px #191e2278;
+    border-radius: 0.3em;
+}
+
+.createpost-title textarea{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    color: #b56131;
+    padding: 12px;
+    min-height: 100%;
+    height: auto;
+    line-height: 40px;
+    font-family: IRANSans;
+    font-size: x-large;
+    overflow: hidden;
+    resize: none;
+   
+}
+.createpost-title textarea:focus{
+  outline: 0;
+}
+.createpost-title textarea::placeholder{
+  color: #5e5e5e;
+}
+
+.CreatePost-sendData-BTN{
+    font-family: IRANSans;
+}
+
+.modal-btn-createPost{
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+
+.selectMap .mapboxgl-canvas{
+cursor: pointer;
+}
+
+
+.imageList-uploaded{
+    display: flex;
+    align-items: center;
+}
+.imageList-uploaded > div{
+   flex-basis: 25%;
+}
+.imageList-uploaded > div img{
+    width: 100%;
+    padding: 4px;
+}
+.imageList-uploaded .imgContainer .btnContainer{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    background: #000000bb;
+}
+.imageList-uploaded .imgContainer .btnContainer button{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: x-large;
+}
+.imageList-uploaded .imgContainer .btnContainer button:first-child{
+    color: #ff0052 !important;
+}
+
+
+.createSurvey-in-createPost{
+    width: 500px;
+}
+
+
+.AddInputSurvey_show_createPost{
+    animation: AddInputSurvey_show_createPost .7s   ;
+}
+
+.AddInputSurvey_close_createPost{
+    animation: AddInputSurvey_close_createPost .7s   ;
+}
+
+
+
+
+#search_location_mapbox::placeholder{
+    color: rgb(24, 163, 243);
+    font-size: large;
+    font-family: Vazir;
+}
+
+
+
+
+
+.bg-e9e9e9{
+    background-color: #e9e9e9;
+}
+
+@media screen and (max-width:1000px) {
+    .create-post-conatiner{
+        max-width: 600px;
+    }
+}
+@media screen and (max-width:600px) {
+    .create-post-conatiner{
+        max-width: auto;
+    }
+    .createSurvey-in-createPost{
+        width: 80vw;
+    }
+}
+
+
+
+
+@media (max-width: 800px) {
+    .modal-lg {
+      width: 97%;
+     max-width:1200px;
+    }
+    .typeOfPost_container {
+        display: none !important;
+    }
+}
+
+@media (max-width: 450px) {
+    .imageList-uploaded{
+        flex-wrap: wrap;
+    }
+    .imageList-uploaded > div{
+        flex-basis: 50%;
+     }
+}
+
+
+
+
+
+
+
+
+@keyframes AddInputSurvey_show_createPost {
+    0%{
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes AddInputSurvey_close_createPost {
+    0%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100%{
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+}
+

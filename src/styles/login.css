@@ -1,0 +1,39 @@
+.loginDice{
+    font-size: 12em;
+}
+
+.loginContainer{
+    padding-top: 120px;
+}
+.login-title{
+    font-size: 2rem;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.login-description{
+    font-family: IRANSAns;
+    margin-top: 5px;
+    line-height: 1.5;
+    text-align: center;
+    color: gray;
+}
+
+.login-input::placeholder{
+    color: #ffc107;
+}
+.login-input{
+    margin: 1.3em auto 0 auto;
+    font-size: large;
+}
+
+.forget-password-login{
+    margin: 14px 0 0 0 ;
+    font-family: IRANSans_Small_light;
+    font-size: larger;
+}
+.forget-password-login a{
+    color: #5982cbe0;
+    text-decoration: none;
+}

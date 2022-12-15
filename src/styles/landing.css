@@ -1,0 +1,61 @@
+
+.landingContainer{
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+  padding-top: 6em;
+}
+
+.landing-hive-Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.landing-hive-Container .iconify{
+  font-size: 14rem;
+}
+.landing-title{
+  font-family:  Nahid !important;
+  color: #cf970e;
+}
+
+.landingTitle-conatiner p{
+  font-family: IRANSans;
+}
+
+
+.landingSlider .iconify{
+  font-size: 9rem;
+  color: #5e5e5e91;
+}
+
+
+.qamm{
+  text-align: center;
+  padding: 2px 20px;
+  margin-top: 1em;
+  font-family: IRANSans_Medium;
+  color: rgb(128, 128, 128);
+  line-height: 1.6em;
+}
+.qamm2{
+  text-align: center;
+  padding: 2px 20px;
+  margin-top: 1em;
+  font-family: IRANSans_Medium;
+  color: rgb(0, 48, 179);
+  line-height: 1.6em;
+}
+
+.startPlayer{
+  padding: 1em;
+  margin: 1em;
+  background: #4e4a46;
+  border: none;
+  color: aqua;
+  border-radius: 1em;
+  font-family: IRANSans;
+  line-height: 1.6em;
+}

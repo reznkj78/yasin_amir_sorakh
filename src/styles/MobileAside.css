@@ -1,0 +1,72 @@
+.mobile-menue{
+    position: fixed;
+    bottom: 0;
+    width: 96%;
+    background-color: #ffeb3b94;
+    border: none;
+    font-size: x-large;
+    height: 10px;
+    z-index: 1200;
+    border-radius: 0.5em 0.5em 0 0;
+}
+
+.mobile-menue button{
+    position: absolute;
+    top: -12px;
+    height: 17px;
+    border: none;
+    background: #a29833;
+    border-radius: 0.5em 0.5em 0 0;
+    right: 45%;
+    font-size: large;
+}
+
+
+
+.mobile-menue-close{
+    position: absolute;
+    top: 0;
+    width: 96%;
+    background-color: #ffeb3b94;
+    border: none;
+    font-size: x-large;
+    height: 10px;
+    z-index: 1200;
+    border-radius: 0 0 0.5em 0.5em ;
+}
+
+.mobile-menue-close button{
+    position: absolute;
+    top: 3px;
+    height: 17px;
+    border: none;
+    background: #a29833;
+    border-radius:0 0 0.5em 0.5em ;
+    right: 45%;
+    padding-bottom: 2px;
+    font-size: small;
+}
+
+.active-mobile-menue {
+    box-shadow:0px 0px 4px -1px #898484;
+    border-radius: 1em;
+}
+
+.css-9emuhu-MuiPaper-root-MuiDrawer-paper{
+background-color: #000000c0 !important;
+}
+
+
+
+.list-styled-menue-mobile li{
+    margin-top:12px;
+    padding: 5px;
+}
+
+
+
+@media screen and (min-width:800px) {
+    .mobile-menue{
+        display: none;
+    }
+}

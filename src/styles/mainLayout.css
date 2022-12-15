@@ -1,0 +1,74 @@
+.mainLayout-main-aside-container{
+position: relative;
+display: flex;
+}
+.mainLayout-main-aside-container main{
+    width: calc(100vw - 122px);
+    padding-top: 85px;
+}
+
+.mainLayout-main-aside-container> aside{
+    width: 120px;
+    max-height: calc(102vh - 80px);
+    position: sticky;
+    left: 0;
+    top: 67px;
+    overflow-y: auto;
+    box-shadow: 1px 0px 6px 1px #00000040;
+}
+.mainLayout-main-aside-container > aside::-webkit-scrollbar{
+    width: 1px;
+}
+
+.aside-menu {
+padding: 20px 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+height: 100%;
+}
+.aside-menu .iconify{
+font-size: xx-large;
+color: #d7a202ad;
+}
+.aside-menu li{
+font-family: IRANSans;
+cursor: pointer;
+width: 100%;
+}
+.aside-menu li p{
+margin-top: 7px;
+}
+
+.aside-menu .active{
+    padding: 7px 0;
+background-color: #00000054;
+}
+
+
+
+
+
+@media screen and (max-width:800px) {
+    .mainLayout-main-aside-container{
+        display: block;
+    }
+    .mainLayout-main-aside-container main{
+        width: 100%;
+    }
+    .mainLayout-main-aside-container > aside{
+        display: none;
+    }
+    .aside-menu{
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 35px 0 0 0;
+    }
+    .aside-menu li{
+        flex-basis: 32%;
+    }
+    .aside-menu li p{
+        font-size: small;
+    }
+}

@@ -1,0 +1,97 @@
+.color-gold{
+    color: gold;
+}
+
+.color-silver{
+    color: silver;
+}
+
+.color-brounze{
+    color: #CD7F32;
+}
+
+.color-2c8951{
+    color: #2c8951;
+}
+
+.top-post-container{
+    min-height: 100vh;
+}
+.top-post-container .title{
+    font-family: Yekan;
+}
+.top-post-container .title .iconify{
+    font-size: 2em;
+    color: #ff9800;
+}
+
+
+.top-post-card-container .card-body a{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    color: #607d8b;
+    text-decoration: none;
+    font-family: 'IRANSans';
+    line-height: 1.8em;
+    text-align: justify;
+}
+.top-post-card-container .card-body a:hover{
+   color: cornflowerblue;
+}
+.top-post-card-container .img-contaner {
+   border-bottom: 1px solid rgb(2 2 2 / 36%);
+   padding-bottom: 9px;
+}
+.top-post-card-container .img-contaner img{
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
+   border: 1px solid gray;
+   padding: 3px;
+}
+
+.top-post-card-container .img-contaner a{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    color: #ff510087;
+    text-decoration: none;
+    font-family: 'IRANSans';
+   margin-right: 15px;
+   font-size: x-large;
+}
+
+.top-post-card-container .medalStyle{
+    left: 0;
+    font-size: 4em;
+    top: -23px;
+    padding: 0;
+    /* display: table; */
+    height: 10px;
+}
+
+
+
+.top-post-card-container  .card-footer {
+    border-top: 1px solid #f3b30073;
+    padding-right: 0;
+    padding-left: 0;
+}
+.top-post-card-container   .card-footer button{
+    background: transparent;
+    border: none;
+    color: #ed6c02;
+    border: none;
+    background-color: transparent;
+    cursor:default;
+}
+.top-post-card-container  .card-footer button strong{
+    color: #606060;
+    font-family: IRANSans;
+    font-size: small;
+}
